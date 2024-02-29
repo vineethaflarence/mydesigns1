@@ -1,0 +1,144 @@
+.nav-link{
+    margin-left:10px;
+    margin-right:10px;
+    font-weight: bold;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    
+  }
+  
+  .bgimg-1,  .bgimg-3 {
+    position: relative;
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("CBM-RCI\'s.jpg");
+    height: 50%;
+  }
+  
+  .bgimg-3 {
+    background-image: url("img_parallax3.jpg");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  .mission{
+    background-color: rgb(166,56,81,1);
+    width:350px;
+    height:200px;
+    padding:30px;
+   
+  }
+  .research{
+    background-color: rgb(45, 126, 202);
+    width:350px;
+    height:200px;
+    padding:30px;
+   
+  }
+  .talks{
+    background-color: rgb(238, 102, 177);
+    width:350px;
+    height:200px;
+    padding:30px;
+   
+  }
+  .events{
+    background-color: rgb(0, 67, 168);
+    width:350px;
+    height:200px;
+    padding:30px;
+   
+  }
+  .latest-news{
+    text-align: center;
+    font-size: 60px;
+    padding:20px;
+  }
+  .flex-container {
+    margin-top:20px;
+    display: flex;
+}
+.element{
+    margin-left:10px;
+    margin-right:10px;
+}
+.event-description {
+  display: none;
+}
+
+.bg-img{
+  width:100%;
+height:300px;
+
+background-size: cover;
+}
+.heading{
+  color:rgb(0, 29, 71);
+  text-align:center;
+}
+.line{
+  width: 200px;
+height: 2px;
+border: 2px solid rgb(255, 208, 0);
+margin: 0 auto;
+}
+#myCarousel img
+{
+  width:100%;
+    height: 500px;
+    
+}
+
+.carousel-inner p
+{
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+}
+#myCarousel
+{
+    background-color: white;
+}
+
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+
+
+
+  

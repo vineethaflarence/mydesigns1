@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script> <!-- Include Moment.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js"></script>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: white;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #009963"> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="#"><img src="iiit_logo_white.png" style="width: 100px; height: 50px; opacity: 1;"></a>
+    <div class="collapse navbar-collapse text-center" id="myNavbar">
+      <ul class="navbar-nav menu mx-auto text-align:left">
+        <li class="nav-item"><a id="about-link" class="nav-link" style="color: white;" href="index.html">About</a></li>
+        <li class="nav-item"><a id="research-link" class="nav-link" style="color: white;" href="https://dev-test.iiit.ac.in/faculty/">Faculty</a></li>
+        <li class="nav-item"><a id="event-link" class="nav-link" style="color: white;" href="http://webdev.iiit.ac.in/student_template/">Students</a></li>
+        <li class="nav-item"><a id="event-link" class="nav-link" style="color: white;" href="https://dev-test.iiit.ac.in/research-centres/">Research</a></li>
+        <li class="nav-item"><a id="teaching-link" class="nav-link" style="color: white;" href="#contact.html">Projects</a></li>
+        <li class="nav-item"><a id="teaching-link" class="nav-link" style="color: white;" href="#contact.html">Events</a></li>
+        <li class="nav-item"><a id="teaching-link" class="nav-link" style="color: white;" href="#contact.html">Talks</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img-container">
+    <img src="banner_home.png" class="bg-img" alt="Background Image">
+    </div>
+  <div class="container " style="margin-top:20px;">
+<h1 class="heading">Research Centers</h1>
+<div class="line"></div>
+<p style="margin:20px;">IIIT Hyderabad is structured around research centers and labs as opposed to schools and departments. Each research center focuses on a broad problem area and brings together experts possibly with varied background to conduct research and development on specific aspects of that problem area, constantly pushing the science to the next level.<br>The current Research Centers and Laboratories are listed below based on their research focus on technologies and domains. There are also domain centers which make use of technologies in typically unusual domains in innovative ways.</p>
+<div id="myCarousel" class="carousel slide" >
+    <center>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <a href="https://kcis.iiit.ac.in/" target="_blank">
+            <img src="Combined.jpg">
+          </a>
+          <p style="color:black;"><strong>Kohli Center on Intelligent Systems (KCIS)</strong></p>
+          <p style="color:black;font-size:15px;margin:20px;">Kohli Center on Intelligent Systems (KCIS) was established at International Institute of Information Technology, Hyderabad (IIIT Hyderabad) in 2015 with funding from Tata Consultancy Services (TCS) to give a fillip to research, teaching and entrepreneurship in the broad Intelligent Systems area.</p>
+        </div>
+  
+        <div class="item">
+          <a href="https://ihub-data.iiit.ac.in/programs/" target="_blank">
+            <img src="hub.png">
+          </a>
+            <p style="color:black;"><strong>Technology Innovation Hub</strong></p>
+            <p style="color:black;font-size:15px;margin:20px;">IHub-Data is one of the Technology Innovation Hubs (TIHs) that is established at IIIT Hyderabad as part of the National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS). The hub focusses on putting together large-scale datasets as well as develop solutions based on that data through Applied.</p>
+          </div>
+          <div class="item">
+            <a href="https://smartcityresearch.iiit.ac.in/" target="_blank">
+              <img src="smart-city.jpg">
+            </a>
+              <p style="color:black;"><strong>Smart City Research Centr (SCRC)</strong></p>
+              <p style="color:black;font-size:15px;margin:20px;">The Smart City Research Center(SCRC) is setup with support from MEITY (Government of India), Smart City Mission and Government of Telangana at IIITH. The research center includes a Living Lab, that is a setup with support from EBTC and Amsterdam Innovation Arena.</p>
+            </div>
+            <div class="item">
+                <a href="https://www.inai.ai/" target="_blank">
+                  <img src="ai.jpg">
+                </a>
+                  <p style="color:black;"><strong>Applied Artificial Intelligence (AI) Research Centre(INAI)</strong></p>
+                  <p style="color:black;font-size:15px;margin:20px;">INAI is an initiative to apply AI to population scale problems in the Indian context, combining research and translation. This collaborative effort, championed by Intel and catalyzed by the Government of Telangana, is anchored at IIIT Hyderabad and brings multiple relevant institutions together to work on important problems in the society.</p>
+                </div>
+      
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+  
+    </center>
+    </div>
+  
+  </div>
+    
+</div>
+</body>
+</html>
